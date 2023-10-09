@@ -1,0 +1,68 @@
+{
+  "id" : "9649.2637c812-b0f8-11e8-9da7-0242ac190002",
+  "name" : "Home",
+  "excluded" : false,
+  "disinheritDefault" : false,
+  "disinheritedChannelIds" : [ ],
+  "version" : {
+    "versionNumber" : "2.0",
+    "type" : "published",
+    "timestamp" : 1537278562,
+    "publishAt" : 0
+  },
+  "alternateUrls" : [ ],
+  "fileName" : "Home.html",
+  "description" : "",
+  "template" : {
+    "id" : "9649.0fc8aa05-b0f8-11e8-9da7-0242ac190002",
+    "hash" : "b71e44d07793f9dbb83dfddd8b0add58"
+  },
+  "priority" : 1,
+  "contentsetId" : "9649.26378545-b0f8-11e8-9da7-0242ac190002",
+  "contentId" : "9649.2636be15-b0f8-11e8-9da7-0242ac190002",
+  "tags" : {
+    "title" : {
+      "id" : "9649.ecd4e694-b104-11e8-9da7-0242ac190002",
+      "name" : "title",
+      "construct" : {
+        "id" : "A547.75403",
+        "hash" : "d0a1e13d87d08654f00072e9b4f5158a"
+      },
+      "active" : true,
+      "properties" : {
+        "text" : {
+          "id" : "9649.ecd522d6-b104-11e8-9da7-0242ac190002",
+          "type" : "RICHTEXT",
+          "partId" : "A547.75407",
+          "stringValue" : "<p>Ein Super Titel3</p>"
+        }
+      },
+      "type" : "CONTENTTAG"
+    }
+  },
+  "objectTags" : {
+    "object.image" : {
+      "id" : "5D40.a7e57ac6-b2a0-11e8-84e0-0242ac1b0004",
+      "name" : "object.image",
+      "construct" : {
+        "id" : "A547.69940",
+        "hash" : "6167b88c9eb489eb85289c11a5e0e8b8"
+      },
+      "active" : false,
+      "properties" : {
+        "img" : {
+          "id" : "5D40.a7e592b9-b2a0-11e8-84e0-0242ac1b0004",
+          "type" : "IMAGE",
+          "partId" : "A547.69946"
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.75662",
+        "hash" : "f40a51ed3886b4417575298113f98bc7"
+      }
+    }
+  },
+  "customCdate" : 0,
+  "customEdate" : 0
+}

@@ -2,7 +2,6 @@ feature:
   mesh_contentrepository: true
   pub_dir_segment: true
   devtools: true
-  activiti_integration: true
   aloha_annotate_editables: true
   live_urls: true
   resumable_publish_process: true

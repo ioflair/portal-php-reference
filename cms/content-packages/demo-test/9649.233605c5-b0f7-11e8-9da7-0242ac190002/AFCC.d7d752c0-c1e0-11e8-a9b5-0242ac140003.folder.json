@@ -1,0 +1,225 @@
+{
+  "id" : "AFCC.d7d752c0-c1e0-11e8-a9b5-0242ac140003",
+  "name" : "[Error Pages]",
+  "excluded" : false,
+  "disinheritDefault" : false,
+  "disinheritedChannelIds" : [ ],
+  "publishDir" : "errors",
+  "description" : "",
+  "objectTags" : {
+    "object.blog" : {
+      "id" : "AFCC.d7d972df-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.blog",
+      "construct" : {
+        "id" : "A547.69744",
+        "hash" : "a98342b27c2d7e36c986fab82e32677e"
+      },
+      "active" : false,
+      "properties" : {
+        "check" : {
+          "id" : "AFCC.d7d98f21-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "BOOLEAN",
+          "partId" : "A547.69750",
+          "booleanValue" : false
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.69752",
+        "hash" : "869f8a0c4b153a0b8a0ee1661c3ce1f1"
+      }
+    },
+    "object.image" : {
+      "id" : "AFCC.d7d809ec-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.image",
+      "construct" : {
+        "id" : "A547.69940",
+        "hash" : "6167b88c9eb489eb85289c11a5e0e8b8"
+      },
+      "active" : false,
+      "properties" : {
+        "img" : {
+          "id" : "AFCC.d7d8315e-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "IMAGE",
+          "partId" : "A547.69946"
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.70121",
+        "hash" : "6caa70adafb936f1e103201d702f7251"
+      }
+    },
+    "object.meshroles" : {
+      "id" : "AFCC.2c2446ca-4966-11e9-a0c5-0242ac1e0002",
+      "name" : "object.meshroles",
+      "construct" : {
+        "id" : "AFCC.a29fb77a-4965-11e9-a0c5-0242ac1e0002",
+        "hash" : "7efc4537e04d82b3cf45c0bacec8e910"
+      },
+      "active" : true,
+      "properties" : {
+        "meshroles" : {
+          "id" : "AFCC.2c2469fc-4966-11e9-a0c5-0242ac1e0002",
+          "type" : "MULTISELECT",
+          "partId" : "AFCC.d54e62cf-4965-11e9-a0c5-0242ac1e0002",
+          "selectedOptions" : [ {
+            "id" : 2,
+            "key" : "anonymous",
+            "value" : "anonymous"
+          }, {
+            "id" : 1,
+            "key" : "reference_role",
+            "value" : "reference_role"
+          } ],
+          "datasource" : {
+            "id" : "AFCC.be86999d-4965-11e9-a0c5-0242ac1e0002",
+            "hash" : "04ebe227c5b61d0b46a42f20037129d7"
+          }
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "AFCC.e99e6dab-4965-11e9-a0c5-0242ac1e0002",
+        "hash" : "cb55d0455e545f3f8360e89a54379fbc"
+      }
+    },
+    "object.name_de" : {
+      "id" : "AFCC.d7d8d32a-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.name_de",
+      "construct" : {
+        "id" : "A547.69478",
+        "hash" : "935266bf38d42aa643a6d32ed56cb761"
+      },
+      "active" : false,
+      "properties" : {
+        "text" : {
+          "id" : "AFCC.d7d8eb05-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "STRING",
+          "partId" : "A547.69484",
+          "stringValue" : ""
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.70067",
+        "hash" : "9e61901bd8dd3e069548676e213a0e19"
+      }
+    },
+    "object.name_en" : {
+      "id" : "AFCC.d7da2170-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.name_en",
+      "construct" : {
+        "id" : "A547.69478",
+        "hash" : "935266bf38d42aa643a6d32ed56cb761"
+      },
+      "active" : false,
+      "properties" : {
+        "text" : {
+          "id" : "AFCC.d7da38de-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "STRING",
+          "partId" : "A547.69484",
+          "stringValue" : ""
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.70055",
+        "hash" : "284442fcb4204a6b7c80ebc1a899d171"
+      }
+    },
+    "object.navhidden" : {
+      "id" : "AFCC.d7d940ca-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.navhidden",
+      "construct" : {
+        "id" : "A547.69744",
+        "hash" : "a98342b27c2d7e36c986fab82e32677e"
+      },
+      "active" : true,
+      "properties" : {
+        "check" : {
+          "id" : "AFCC.d7d957cc-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "BOOLEAN",
+          "partId" : "A547.69750",
+          "booleanValue" : true
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.75740",
+        "hash" : "3c54a9cd1f8f1354a6fa385c3144c0b4"
+      }
+    },
+    "object.sortorder" : {
+      "id" : "AFCC.d7d90299-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.sortorder",
+      "construct" : {
+        "id" : "A547.69478",
+        "hash" : "935266bf38d42aa643a6d32ed56cb761"
+      },
+      "active" : true,
+      "properties" : {
+        "text" : {
+          "id" : "AFCC.d7d921fc-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "STRING",
+          "partId" : "A547.69484",
+          "stringValue" : "1"
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.69486",
+        "hash" : "296b2b82751b9e6d4e3622ef815cb9ad"
+      }
+    },
+    "object.startpage" : {
+      "id" : "AFCC.d7d85553-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.startpage",
+      "construct" : {
+        "id" : "A547.69527",
+        "hash" : "ac0211cc12e8e49d237535169fb57146"
+      },
+      "active" : true,
+      "properties" : {
+        "url" : {
+          "id" : "AFCC.d7d8b464-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "PAGE",
+          "partId" : "A547.69533",
+          "pageId" : "9649.2637c812-b0f8-11e8-9da7-0242ac190002",
+          "nodeId" : "9649.2334abbb-b0f7-11e8-9da7-0242ac190002"
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.69535",
+        "hash" : "61ed9a2885440696529258b95478892c"
+      }
+    },
+    "object.wikidocs" : {
+      "id" : "AFCC.d7d9e9e5-c1e0-11e8-a9b5-0242ac140003",
+      "name" : "object.wikidocs",
+      "construct" : {
+        "id" : "A547.69744",
+        "hash" : "a98342b27c2d7e36c986fab82e32677e"
+      },
+      "active" : false,
+      "properties" : {
+        "check" : {
+          "id" : "AFCC.d7da05fc-c1e0-11e8-a9b5-0242ac140003",
+          "type" : "BOOLEAN",
+          "partId" : "A547.69750",
+          "booleanValue" : false
+        }
+      },
+      "type" : "OBJECTTAG",
+      "definition" : {
+        "id" : "A547.70926",
+        "hash" : "761e84b86dd0798b46794bb1e7c67816"
+      }
+    }
+  },
+  "nameI18n" : { },
+  "descriptionI18n" : { },
+  "publishDirI18n" : { },
+  "templateIds" : [ "5D40.951592cc-b2a0-11e8-84e0-0242ac1b0004", "9649.0fc8aa05-b0f8-11e8-9da7-0242ac190002" ]
+}

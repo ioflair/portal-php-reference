@@ -102,8 +102,9 @@
         "sort-packages": true,
         "allow-plugins": {
             "isaac/composer-git-hooks": false,
-            "wikimedia/composer-merge-plugin": true
-         }
+            "wikimedia/composer-merge-plugin": true,
+            "php-http/discovery": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
